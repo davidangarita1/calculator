@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="content">
+        
+
+    <div id="contenedor">
+        
+        <div id="botones" class="wrapper">
+                <!--
+                <div class="AC gris"><a href="#">AC</a></div>
+                -->
+                <header id="header" class="z">
+                    <form name="calculator">
+                        <h1>Calculadora</h1>
+                        <input type="textfield" name="ans" value="" placeholder="0">
+                    </form>
+                </header>
+                <div class="AC gris"><a href="#" onClick="document.calculator.ans.value=''">AC</a></div>
+                <div class="masMenos gris"><a href="#">+/-</a></div>
+                <div class="porcentaje gris"><a href="#">%</a></div>
+                <div class="siete gris"><a href="#" onClick="document.calculator.ans.value+='7'">7</a></div>
+                <div class="ocho gris"><a href="#" onClick="document.calculator.ans.value+='8'">8</a></div>
+                <div class="nueve gris"><a href="#" onClick="document.calculator.ans.value+='9'">9</a></div>
+                <div class="cuatro gris"><a href="#" onClick="document.calculator.ans.value+='4'">4</a></div>
+                <div class="cinco gris"><a href="#" onClick="document.calculator.ans.value+='5'">5</a></div>
+                <div class="seis gris"><a href="#" onClick="document.calculator.ans.value+='6'">6</a></div>
+                <div class="uno gris"><a href="#"onClick="document.calculator.ans.value+='1'">1</a></div>
+                <div class="dos gris"><a href="#" onClick="document.calculator.ans.value+='2'">2</a></div>
+                <div class="tres gris"><a href="#" onClick="document.calculator.ans.value+='3'">3</a></div>
+                <div class="cero gris"><a href="#" onClick="document.calculator.ans.value+='0'">0</a></div>
+                <div class="p gris"><a href="#">.</a></div>
+                <div class="slash naranja"><a href="#" onClick="document.calculator.ans.value+='/'" style="color: white;">/</a></div>
+                <div class="por naranja"><a href="#" onClick="document.calculator.ans.value+='*'" style="color: white;">x</a></div>
+                <div class="menos naranja"><a href="#" onClick="document.calculator.ans.value+='-'" style="color: white;">-</a></div>
+                <div class="mas naranja"><a href="#" onClick="document.calculator.ans.value+='+'" style="color: white;">+</a></div>
+                <div class="igual naranja"><a href="#" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)" style="color: white;">=</a></div>
+        </div>
+                
+
+    </div>
+    <div class="clearfix"></div>
+
+    
+</body>
+</html>

@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#content{
+    width: 320px;
+    min-height: 490px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#header form h1{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+#header form input[type="textfield"]{
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    border: none;
+    background: gray;
+}
+
+#header form input[type="textfield"]::placeholder{
+    color: white;
+    font-size: 50px;
+}
+
+#header form input[value=""]{
+    color: white;
+    font-size: 50px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    grid-template-areas: 
+    "z z z z"
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p"
+    "q q r s";
+} 
+
+#botones a{
+    text-decoration: none;
+    color: black;
+}
+
+.naranja{
+    text-decoration: none;
+    color: white;
+    background: #f5923e;
+    border: 1px solid gray;
+    line-height: 75px;
+    text-align: center;
+}
+
+.naranja:hover{
+    box-shadow: 0px 0px 3px rgba(228, 49, 5, 0.911) inset;
+}
+
+.naranja a{
+    display: block;
+}
+
+.gris{
+    border: 1px solid gray;
+    background: #e0e0e0;
+    text-align: center;
+    line-height: 77px;
+}
+
+.gris a{
+    display: block;
+}
+
+.gris:hover{
+    box-shadow: 0px 0px 3px black inset;
+}
+
+
+
+.z{
+    grid-area: z;
+}
+
+.AC{
+    grid-area: a;
+}
+
+.masMenos{
+    grid-area: b;
+}
+
+.porcentaje{
+    grid-area: c;
+}
+
+.slash{
+    grid-area: d;
+}
+
+.siete{
+    grid-area: e;
+}
+
+.ocho{
+    grid-area: f;
+}
+
+.nueve{
+    grid-area: g;
+}
+
+.por{
+    grid-area: h;
+}
+
+.cuatro{
+    grid-area: i;
+}
+
+.cinco{
+    grid-area: j;
+}
+
+.seis{
+    grid-area: k;
+}
+
+.menos{
+    grid-area: l;
+}
+
+.uno{
+    grid-area: m;
+}
+
+.dos{
+    grid-area: n;
+}
+
+.tres{
+    grid-area: o;
+}
+
+.mas{
+    grid-area: p;
+}
+
+.cero{
+    grid-area: q;
+}
+
+.p{
+    grid-area: r;
+}
+
+.igual{
+    grid-area: s;
+}
